@@ -1,0 +1,9 @@
+.register {
+    text-align: center;
+}
+
+.register p {
+    color: #140f0f;
+    font-family: 'Inter', sans-serif;
+    margin: 20px 0 15px 0;
+}
