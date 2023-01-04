@@ -1,0 +1,9 @@
+.create_post {
+    text-align: center;
+}
+    
+.create_post p {
+    color: #140f0f;
+    font-family: 'Inter', sans-serif;
+    margin: 20px 0 15px 0;
+}
