@@ -1,0 +1,9 @@
+.login {
+    text-align: center;
+}
+
+.login p {
+    color: #140f0f;
+    font-family: 'Inter', sans-serif;
+    margin: 20px 0 15px 0;
+}

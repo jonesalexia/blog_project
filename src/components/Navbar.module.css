@@ -33,3 +33,18 @@
     background-color: #e2c2b6;
     color: #fff;
 }
+
+.button {
+  text-decoration: none;
+  color: #000;
+  background-color: transparent;
+  border: none;
+  transition: .4s;
+  font-size: 1em;
+  cursor: pointer;
+  font-family: 'Overpass', sans-serif;
+  text-transform: uppercase;
+  margin-left: 4px;
+}
+
+

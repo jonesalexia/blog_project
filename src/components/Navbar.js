@@ -9,6 +9,8 @@ import styles from './Navbar.module.css';
 const Navbar = () => {
     const {user} = useAuthValue();
 
+    const {logout} = useAuthentication();
+
   return <nav className={styles.navbar}>
     <NavLink to='/' className={styles.brand}>
         Estante do 207
@@ -45,9 +47,18 @@ const Navbar = () => {
         <li>
             <NavLink to='/about' className={({isActive}) => (isActive ? styles.active : '')}>Sobre</NavLink>
         </li>
+
+        {user && (
+                <li>
+                    <button onClick={logout} className={styles.button}>Sair</button>
+                </li>
+        )}
+
+      </ul>
+
+
        
-    </ul>
-  </nav>
+    </nav>
 }
 
 export default Navbar

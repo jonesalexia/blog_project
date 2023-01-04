@@ -33,11 +33,11 @@ nav button {
 }
 
 h2 {
-  font-family: 'Overpass', sans-serif;
-  font-weight: 600;
-  font-size: 35px;
+  font-family: 'Della Respira', sans-serif;
+  font-size: 30px;
   color: #140f0f;
   margin-top: 40px;
+  text-align: center;
 }
 
 /* form styles */
