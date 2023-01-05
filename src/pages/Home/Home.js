@@ -26,7 +26,7 @@ const Home = () => {
 
   return (
     <div className={styles.home}>
-        <h2>Olá, novamente!</h2>
+        <h2>Olá!</h2>
         <p>Veja os posts mais recentes.</p>
         <form onSubmit={handleSubmit} className={styles.search_form}>
           <input type="text" placeholder="Ou busque por tags" onChange={(e) => setQuery(e.target.value)} />
