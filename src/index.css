@@ -43,7 +43,7 @@ h2 {
 /* form styles */
 
 form {
-  max-width: 30%;
+  max-width: 40%;
   margin: 0 auto;
 }
 
@@ -86,9 +86,9 @@ textarea {
 }
 
 .btn.btn-dark {
-  background-color: #644b4b;
+  background-color: #de8c8c;
   border-radius: 0;
-  color: #fff;
+  color: #000;
 }
 
 .btn.btn-outline {
