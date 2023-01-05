@@ -18,7 +18,7 @@ const CreatePost = () => {
   return (
     <div className={styles.create_post}>
         <h2>Criar post</h2>
-        <p>Escreva sobre o que você qusier e compartilhe seu conhecimento.</p>
+        <p>Escreva sobre o que qusier!</p>
 
         <form onSubmit={handleSubmit}>
           <label>
